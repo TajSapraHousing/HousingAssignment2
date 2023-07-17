@@ -1,0 +1,83 @@
+.display{
+    width: 100%;
+    height: 25%;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+.show_area{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+    color: black;
+    background-color: #e8e8e8;
+    text-align: right;
+    overflow: scroll;
+    white-space: nowrap;
+    font-size: max(44px,3vw);
+}
+button {
+    cursor: pointer;
+    color: #090909;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+.row{
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+.row{
+    align-items: center;
+    justify-content: space-evenly;
+}
+.calculatorGrid{
+    min-width: 280px;
+    max-width: 800px;
+    border: 1px solid #e8e8e8;
+    height: 80vh;
+    display: flex;
+    border-radius: 20px;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.main{
+    height: 91vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row div{
+    width: 20%;
+    height: 80%;
+}
+h1{
+    color: #e8e8e8;
+    text-align: center;
+}
+#equaldiv{
+    width: 44%;    
+}
+.row button{
+    font-size: max(16px,3vw);
+}
